@@ -51,6 +51,20 @@ For more available modules, check out out the wiki page [MagicMirror² 3rd Party
 
 ### Auto Start
 
+- Option 1
+````
+crontab -e
+````
+Add the commands at the bottom:
+````
+@reboot npm start /home/pi/MagicMirror
+````
+````
+ctrl+o (saves)
+````
+````
+ctrl+x (exits editor)
+````
 ### Rotate Screen
 
 edit _/boot/config.txt_:
