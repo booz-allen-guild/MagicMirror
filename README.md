@@ -49,6 +49,8 @@ For more available modules, check out out the wiki page [MagicMirror² 3rd Party
 
 ## Additional Set Up
 
+### Auto Start
+
 ### Rotate Screen
 
 edit _/boot/config.txt_:
