@@ -47,3 +47,42 @@ For more available modules, check out out the wiki page [MagicMirror² 3rd Party
 ### 3rd Party Modules
 
 [MMM-Traffic](https://github.com/SamLewis0602/MMM-Traffic)
+
+## Additional Set Up
+
+### Rotate Screen
+
+edit _/boot/config.txt_:
+````
+sudo nano /boot/config.txt
+````
+Add the following line:
+````
+display_rotate=1
+avoid_warnings=1 
+````
+> #display_rotate=0 Normal
+> #display_rotate=1 90 degrees
+> #display_rotate=2 180 degrees
+> #NOTE: You can rotate both the image and touch interface 180º by entering lcd_rotate=2 instead`
+> #display_rotate=3 270 degrees
+
+Then reboot the pi:
+````
+sudo reboot
+````
+
+### Hide Mouse
+
+```bash
+$ nano ~/.config/lxsession/LXDE-pi/autostart
+...
+@unclutter -display :0 -idle 3 -root -noevents
+```
+This will add a 3 second delay, before the pointer disappears from the screen when not using it.
+
+
+## MagicMirror Construction
+
+- |**Tapp Plastics**|(https://www.tapplastics.com/product/plastics/cut_to_size_plastic/two_way_mirrored_acrylic/558)
+  1/8 (.118) inches Thick, 14 inches Wide, 24 inches Long
