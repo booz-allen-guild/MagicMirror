@@ -17,8 +17,8 @@ Execute the following command on your Raspberry Pi to install MagicMirror²:
 ```bash
 bash -c "$(curl -sL https://raw.githubusercontent.com/MichMich/MagicMirror/master/installers/raspberry.sh)"
 ```
-
-## Module configuration:
+## Modules
+### Module configuration:
 
 | **Option** | **Description** |
 | --- | --- |
@@ -28,8 +28,6 @@ bash -c "$(curl -sL https://raw.githubusercontent.com/MichMich/MagicMirror/maste
 | `header` | To display a header text above the module, add the header property. This field is optional. |
 | `disabled` | Set disabled to `true` to skip creating the module. This field is optional. |
 | `config` | An object with the module configuration properties. Check the documentation of the module for more information. This field is optional, unless the module requires extra configuration. |
-
-## Modules
 
 The following modules are installed by default.
 
