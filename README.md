@@ -84,5 +84,6 @@ This will add a 3 second delay, before the pointer disappears from the screen wh
 
 ## MagicMirror Construction
 
-- |**Tapp Plastics**|(https://www.tapplastics.com/product/plastics/cut_to_size_plastic/two_way_mirrored_acrylic/558)
+- [**Tapp Plastics**](https://www.tapplastics.com/product/plastics/cut_to_size_plastic/two_way_mirrored_acrylic/558)
+  
   1/8 (.118) inches Thick, 14 inches Wide, 24 inches Long
