@@ -59,12 +59,20 @@ Add the commands at the bottom:
 ````
 @reboot npm start /home/pi/MagicMirror
 ````
+Save the changes
 ````
-ctrl+o (saves)
+ctrl+o
 ````
+Exit the editor
 ````
-ctrl+x (exits editor)
+ctrl+x
 ````
+
+- Option 2
+[MagicMirror Recommended Way](https://github.com/MichMich/MagicMirror/wiki/Auto-Starting-MagicMirror)
+
+
+
 ### Rotate Screen
 
 edit _/boot/config.txt_:
