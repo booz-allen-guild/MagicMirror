@@ -18,7 +18,7 @@ Execute the following command on your Raspberry Pi to install MagicMirror²:
 bash -c "$(curl -sL https://raw.githubusercontent.com/MichMich/MagicMirror/master/installers/raspberry.sh)"
 ```
 
-Module configuration:
+## Module configuration:
 
 | **Option** | **Description** |
 | --- | --- |
@@ -43,3 +43,7 @@ The following modules are installed by default.
 - [**Alert**](modules/default/alert)
 
 For more available modules, check out out the wiki page [MagicMirror² 3rd Party Modules](https://github.com/MichMich/MagicMirror/wiki/3rd-party-modules). If you want to build your own modules, check out the [MagicMirror² Module Development Documentation](modules) and don't forget to add it to the wiki and the [forum](https://forum.magicmirror.builders/category/7/showcase)!
+
+### 3rd Party Modules
+
+[MMM-Traffic](https://github.com/SamLewis0602/MMM-Traffic)
