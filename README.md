@@ -37,6 +37,34 @@ Execute the following command on your Raspberry Pi to install MagicMirror²:
 bash -c "$(curl -sL https://raw.githubusercontent.com/MichMich/MagicMirror/master/installers/raspberry.sh)"
 ```
 ## Modules
+
+### API's
+
+So the different modules use different online services to get their data. Each of those services require an API key to use. All this requires is to make an account on most occasions. We’ll just want to have these API keys/accounts created beforehand to make things a bit smoother. You’ll be able to access any web page on the raspberry pi, just like a normal PC. Why are API keys needed? Well if a developer was able to send a request freely for something without being attached to anything, they could accidentally send millions of requests and crash the site. With an API key, the site can set various limits on each user. 
+ 
+You don’t have to sign up for every one, only the ones you’re interested in. If you have trouble signing up, we can work through it during the event. 
+ 
+What to sign up for:
+•	Weather API
+o	It uses OpenWeatherMap to get it’s weather data
+o	Sign up here: https://home.openweathermap.org/users/sign_up 
+o	After logged in, can go here to view and create an API Key: https://home.openweathermap.org/api_keys 
+o	To create a new key, provide something in the ‘Name’ field, such as ‘MagicMirror’. This is just a nickname, so does not matter what you put there. But helps keeps multiple projects in order
+•	Traffic API
+o	We’ll utilize Google to give us up to date traffic information between 2 locations
+o	Go here (and login to google if you aren’t): https://developers.google.com/maps/documentation/directions/start 
+o	Click the ‘Get Started’ Blue button in the middle of the page. This will open a new window
+o	You’ll have the option to select a few products. Check the ‘Routes’ (You’ll notice it’s features include the Directions API, which we’ll utilize)
+o	Click Continue
+o	Next you’ll want to create a new project. Choose that option and give it a name, such as ‘MagicMirror’
+o	Next you’ll have to set a billing account (THIS WILL NOT COST ANY MONEY. So you’ll select one, but don’t worry about costs)
+o	Click next to Enable your APIs
+o	The next window you’ll see your API Key! Can copy this and store somewhere, or you’ll be able to access again from the console later on. 
+•	Calendar API
+o	To integrate a calendar, we will be finding a .ics url for your wanted calendar
+o	To find your .ics link on Google, iCloud, Outlook, or some other sources, follow the instructions here:
+	https://www.smsclientreminders.com/how_to_share_your_calendar_with_other_applications 
+
 ### Module configuration:
 
 | **Option** | **Description** |
