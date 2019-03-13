@@ -53,6 +53,7 @@ The following modules are installed by default.
 - [**Clock**](modules/default/clock)
 - [**Calendar**](modules/default/calendar)
 - [**Current Weather**](modules/default/currentweather)
+    - City of Saint Louis - 4407084
 - [**Weather Forecast**](modules/default/weatherforecast)
     - City of Saint Louis - 4407084
 - [**News Feed**](modules/default/newsfeed)
@@ -68,9 +69,12 @@ For more available modules, check out out the wiki page [MagicMirror² 3rd Party
 
 ## Additional Set Up
 
-### Auto Start
+### Auto Start (Ideally do this step last after everything is set up)
 
-- Option 1
+- Option 1 (Recommended if you want to tweak Raspberry Pi stuff afterwards)
+
+This option tells Raspberry Pi to run the MagicMirror start command when it boots up.
+
 ````
 crontab -e
 ````
@@ -87,7 +91,7 @@ Exit the editor
 ctrl+x
 ````
 
-- Option 2
+- Option 2 (Recommended if you're only using this for MagicMirror, and never want to deal with the rest)
 [MagicMirror Recommended Way](https://github.com/MichMich/MagicMirror/wiki/Auto-Starting-MagicMirror)
 
 
@@ -104,9 +108,13 @@ display_rotate=1
 avoid_warnings=1 
 ````
 > #display_rotate=0 Normal
+
 > #display_rotate=1 90 degrees
+
 > #display_rotate=2 180 degrees
+
 > #NOTE: You can rotate both the image and touch interface 180º by entering lcd_rotate=2 instead`
+
 > #display_rotate=3 270 degrees
 
 Then reboot the pi:
@@ -116,6 +124,15 @@ sudo reboot
 
 ### Hide Mouse
 
+Install _unclutter_: 
+````
+sudo apt-get install unclutter
+````
+You can create an `.xinitrc` script to run the tool.  
+See https://wiki.archlinux.org/index.php/Unclutter
+
+But a simpler option is to add a line to the end of the file:
+
 ```bash
 $ nano ~/.config/lxsession/LXDE-pi/autostart
 ...
@@ -123,6 +140,16 @@ $ nano ~/.config/lxsession/LXDE-pi/autostart
 ```
 This will add a 3 second delay, before the pointer disappears from the screen when not using it.
 
+### Disable Screensaver
+
+Unfortunately by default, Raspbian has no way to control the screensaver. Install xscreensaver to control it:
+````
+sudo apt-get install xscreensaver
+````
+
+After install, click on the Raspberry Pi Start Menu in upper left > Preferences > Screensaver
+
+In the Mode drop down menu, select 'Disable Screen Saver'
 
 ## MagicMirror Construction
 
