@@ -4,8 +4,27 @@ MagicMirror² is an open source modular smart mirror platform. With a growing li
 
 ## Installation
 
+### Raspbian
+
+Raspbian is a Linux operating system designed for the Raspberry Pi. To put this onto the Raspberry Pi, we're going to need to load it onto the MicroSD card, and there are a few ways to do this.
+
+#### Easiest Way: NOOBS
+
+NOOBS is an operating system installer recommended by Raspberry Pi. It'll handle the installation process. Can follow the instructions here: https://www.raspberrypi.org/downloads/noobs/ (Lite version not recommended for this set up)
+
+#### The other route: Download image and write to MicroSD
+
+The other route is a 2 step process: Download your selected Raspbian image, then write it to your SD card using other software. 
+
+Step 1: Download your preferred image here (Lite not recommended): https://www.raspberrypi.org/downloads/raspbian/ 
+
+Step 2: Write the image to your SD card. A program like Etcher will write an OS image to any storage device: https://www.raspberrypi.org/documentation/installation/installing-images/README.md 
+
 ### Raspberry Pi
 
+Your next step is to plug your Raspberry Pi in. I tend to plug in everything except for the power supply first to make sure it has all the necessary items connected before booting up. Once it starts up, you'll be prompted with a Set Up wizard, which you'll go through and select your preferences (Time zone, language, etc). 
+
+### MagicMirror Installation
 #### Automatic Installation (Raspberry Pi only!)
 
 *Electron*, the app wrapper around MagicMirror², only supports the Raspberry Pi 2/3. The Raspberry Pi 0/1 is currently **not** supported. If you want to run this on a Raspberry Pi 1, use the [server only](#server-only) feature and setup a fullscreen browser yourself. (Yes, people have managed to run MM² also on a Pi0, so if you insist, search in the forums.)
