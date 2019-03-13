@@ -183,8 +183,20 @@ In the Mode drop down menu, select 'Disable Screen Saver'
 
 ## MagicMirror Construction
 
+### The Mirror
+
+There are a few materials you can use for this: Film, Acrylic, and Glass. That goes from cheapest to most expensive, but also lowest to highest quality. 
+
+#### Film
+
+- https://www.twowaymirrors.com/two-way-mirror-film/
+
+#### Acrylic
+
 - [**Tapp Plastics**](https://www.tapplastics.com/product/plastics/cut_to_size_plastic/two_way_mirrored_acrylic/558)
   
-  1/8 (.118) inches Thick, 14 inches Wide, 24 inches Long
+  1/8 (.118) inches Thick, 14 inches Wide, 24 inches Long was my specifications (Jimmy)
+  
+#### Glass
   
 - [Custom Two Way Mirror Vendors](https://github.com/MichMich/MagicMirror/wiki/Two-way-Mirror-Vendors)
