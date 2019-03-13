@@ -20,7 +20,7 @@ Step 1: Download your preferred image here (Lite not recommended): https://www.r
 
 Step 2: Write the image to your SD card. A program like Etcher will write an OS image to any storage device: https://www.raspberrypi.org/documentation/installation/installing-images/README.md 
 
-### Raspberry Pi
+### Raspbian Set Up
 
 Your next step is to plug your Raspberry Pi in. I tend to plug in everything except for the power supply first to make sure it has all the necessary items connected before booting up. Once it starts up, you'll be prompted with a Set Up wizard, which you'll go through and select your preferences (Time zone, language, etc). 
 
