@@ -37,6 +37,8 @@ Execute the following command on your Raspberry Pi to install MagicMirror²:
 bash -c "$(curl -sL https://raw.githubusercontent.com/MichMich/MagicMirror/master/installers/raspberry.sh)"
 ```
 
+This step will take about 10-15 minutes, so be patient while it runs. It downloads and installs all the necessary dependencies and programs. 
+
 ### Start it up
 
 After installation, you can launch the MagicMirror by moving into the MagicMirror folder, and running the npm start command
