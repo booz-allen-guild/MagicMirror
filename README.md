@@ -108,6 +108,10 @@ For more available modules, check out out the wiki page [MagicMirror² 3rd Party
 
 [MMM-Traffic](https://github.com/SamLewis0602/MMM-Traffic)
 
+Notes for 3rd Party Modules:
+
+- Don't forget to install/download the module. If you run the 'git clone' command, be sure to be in the /MagicMirror/modules directory
+
 ## Additional Set Up
 
 ### Auto Start (Ideally do this step last after everything is set up)
