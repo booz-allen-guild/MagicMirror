@@ -39,6 +39,8 @@ bash -c "$(curl -sL https://raw.githubusercontent.com/MichMich/MagicMirror/maste
 
 This step will take about 10-15 minutes, so be patient while it runs. It downloads and installs all the necessary dependencies and programs. 
 
+It will prompt if you want to use PM2 for auto booting. I suggest saying no, and setting up PM2 after all your customization is done. 
+
 ### Start it up
 
 After installation, you can launch the MagicMirror by moving into the MagicMirror folder, and running the npm start command
