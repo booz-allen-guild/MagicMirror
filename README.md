@@ -110,7 +110,10 @@ For more available modules, check out out the wiki page [MagicMirror² 3rd Party
 
 Notes for 3rd Party Modules:
 
-- Don't forget to install/download the module. If you run the 'git clone' command, be sure to be in the /MagicMirror/modules directory
+- Don't forget to install/download the module. Module should have instructions
+- If you run the 'git clone' command to download to module, be sure to be in the /MagicMirror/modules directory in the terminal
+  - ex: cd MagicMirror/modules/
+
 
 ## Additional Set Up
 
