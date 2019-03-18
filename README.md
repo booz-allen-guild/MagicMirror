@@ -121,7 +121,7 @@ crontab -e
 ````
 Add the commands at the bottom:
 ````
-@reboot npm start /home/pi/MagicMirror
+@reboot npm start --prefix /home/pi/MagicMirror
 ````
 Save the changes
 ````
